@@ -1,0 +1,19 @@
+segmento_origen,segmento_destino,puerto,protocolo,servicio_autorizado
+SEG_USUARIOS,SEG_SERVIDORES,443,tcp,portal interno
+SEG_USUARIOS,SEG_SERVIDORES,80,tcp,intranet
+SEG_USUARIOS,SEG_DMZ,443,tcp,correo web
+SEG_USUARIOS,EXTERNO,443,tcp,navegación web
+SEG_SERVIDORES,SEG_BASES,1433,tcp,consulta de base de datos
+SEG_SERVIDORES,SEG_SERVIDORES,22,tcp,administración remota
+SEG_SERVIDORES,SEG_DMZ,443,tcp,publicación de servicios
+SEG_DMZ,EXTERNO,443,tcp,servicios publicados
+SEG_DMZ,SEG_SERVIDORES,443,tcp,retorno de servicios
+SEG_BASES,SEG_SERVIDORES,1433,tcp,respuesta de base de datos
+SEG_ADMIN,SEG_SERVIDORES,3389,tcp,escritorio remoto
+SEG_ADMIN,SEG_BASES,22,tcp,mantenimiento de base de datos
+SEG_PAGOS,SEG_SERVIDORES,443,tcp,conciliación de pagos
+SEG_SERVIDORES,EXTERNO,25,tcp,correo saliente
+SEG_USUARIOS,SEG_SERVIDORES,445,tcp,carpeta compartida
+SEG_SERVIDORES,EXTERNO,53,udp,consulta de nombres
+SEG_SERVIDORES,EXTERNO,443,tcp,transferencia de planilla al banco
+SEG_PAGOS,EXTERNO,9443,tcp,autorización de punto de venta
