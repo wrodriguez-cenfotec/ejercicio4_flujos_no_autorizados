@@ -4,7 +4,7 @@
 
 ### Flujos no autorizados y bloqueo de tráfico
 
-Libreta de práctica para los estudiantes del curso CIB-209, Temas Especiales en Seguridad de Datos y Sistemas. Eje del curso: seguridad de sistemas, conexiones entre componentes.
+Libreta de práctica para los estudiantes del curso CIB-209, Temas Especiales en Seguridad de Datos y Sistemas.
 
 ## Aviso sobre los datos
 
